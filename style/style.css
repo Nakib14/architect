@@ -25,6 +25,9 @@ nav li{
     font-size: 18px;
     font-weight: 500;
 }
+nav li:hover{
+  font-weight: bold;
+}
 
 nav a{
     color:#424242;
@@ -117,4 +120,40 @@ nav a{
         font-weight: 600;
         border: none;
     }
+}
+
+
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+display: flex;
+align-items: center;
+}
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.teams-text{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    color: var(--Dark-03, #727272);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.black{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.yellow{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
 }
